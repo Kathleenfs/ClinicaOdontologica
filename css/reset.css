@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Exo+2');
+body{
+    font-family:'Exo 2', sans-serif;
+    background-image:url("imagens/back.jpg");
+    background-color:white;
+	color:#680000;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    border: none;
+
+}
