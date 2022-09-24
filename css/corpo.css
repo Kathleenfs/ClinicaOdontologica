@@ -1,0 +1,64 @@
+body {
+    background-image: url("../imagens/back.jpg");
+    background-color: white;
+    color: #680000;
+}
+
+section#corpo {
+    display: block;
+    width: 750px;
+    float: left;
+    border-right: 1px solid #680000;
+    padding-right: 15px;
+
+}
+
+h1#titulo {
+    color: #dddddd;
+    text-align: center;
+    font-size: 45px;
+    background-color: #680000;
+    padding: 5px;
+}
+
+p {
+    margin: 0 0 0.5em;
+    color: #696969;
+    text-indent: 30px;
+    text-align: justify;
+    letter-spacing: 1px;
+    padding: 1em;
+}
+
+.texto {
+    background-color: #dddddd;
+    border: 6px solid;
+}
+
+section .corpoL {
+    display: block;
+    width: 750px;
+    float: center;
+    padding: 10px;
+}
+
+.corpoL{
+    background-image: url("../imagens/back2.png");
+}
+
+/* Agendamento */
+section#corpoA {
+    display: block;
+    width: 800px;
+    float: left;
+    padding-right: 15px;
+}
+
+/*Contato*/
+section#corpoCon {
+    display: block;
+    width: 845px;
+    float: center;
+    padding: 30px;
+    height: 600px;
+}

@@ -1,0 +1,16 @@
+.rodape img {
+    width: 50px;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+}
+
+.rodape {
+    clear: both;
+    border-top: 1px solid #680000;
+}
+
+.rodape p {
+    text-align: center;
+}

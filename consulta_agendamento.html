@@ -1,57 +1,51 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Excêlencia Odontologia</title>
-        <link rel="stylesheet" href="telas.css">
-        <link rel="stylesheet"  href="estilo.css">
-        <link rel="shortcut icon" href="http://www.excelenciaodonto.com/images/favicon.ico" type="image/x-icon">
-        <script src="jquery/jquery-3.2.1.min.js"></script>
-  
-    </head>
-    <body>
-        <style>
-            body {
-                background-image:url("imagens/back.jpg");
-               
-            }
-          section#corpoL{
-             background-image:url("imagens/back2.png");
-             margin:0px 0px 0px 0px;
-  
-    }
-        </style>
-        <div id="interfaceL">
-            <header id="cabecalho">
-                <img src="imagens/excelencia-odontologia.png">
-                <h1>Aqui você volta a sorrir </h1>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Excêlencia Odontologia</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/telas.css">
+    <link rel="stylesheet" href="./css/estilo.css">
+    <link rel="stylesheet" href="./css/corpo.css">
+    <link rel="stylesheet" href="./css/menu.css">
+    <link rel="stylesheet" href="./css/rodape.css">
+    <link rel="shortcut icon" href="http://www.excelenciaodonto.com/images/favicon.ico" type="image/x-icon">
+    <script src="jquery/jquery-3.2.1.min.js"></script>
+</head>
 
-                <nav id="menuL">
-                    <ul type="disc">
-                        <li> <a href= "index.html"> Home </a> </li> 
-						 <li> <a href= "aparelho.html"> Especialidades</a> </li>
-						  <li> <a href= "contato.html"> Contato</a> </li>
-                    </ul>
-                </nav>
-            </header>
-            
-            <section id="corpoL">
-                <div id="login">
-                     <h1>Visualizar agendamento</h1>
-                    <fieldset>
-                       
-                        <label for="cpf">CPF:</label>
-                        <input type="text" id="cpf" name="cpf" required>
-                        
-                        <button id="b" type="submit">Procurar</button> 
-                    </fieldset>
-                </div>
-            </section>
-                <footer id="rodape">
-                    <p> Excelência Odontologia © 2017 Todos os Direitos Reservados <br>
-                        <a href ="https://pt-br.facebook.com/excelenciaodontoriacho/" target=_blank> <h2>FACEBOOK | <a href ="https://www.instagram.com/excelenciaodonto/" target=_blank> INSTAGRAM</h2>
-                    </p>
-                </footer>
-        </div>
-    </body>
+<body>
+    <div class="interface">
+        <header class="cabecalho">
+            <img src="imagens/excelencia-odontologia.png">
+            <h1>Aqui você volta a sorrir </h1>
+            <nav id="menu">
+                <ul type="disc">
+                    <li> <a href="index.html"> Home </a> </li>
+                    <li> <a href="especialidades.html"> Especialidades</a> </li>
+                    <li> <a href="contato.html"> Contato</a> </li>
+                </ul>
+            </nav>
+        </header>
+        <section class="corpoL">
+            <div id="login">
+                <h1>Visualizar agendamento</h1>
+                <fieldset>
+                    <label for="cpf">CPF:</label>
+                    <input type="text" id="cpf" name="cpf" required>
+                    <button id="b" type="submit">Procurar</button>
+                </fieldset>
+            </div>
+        </section>
+        <section class="rodape">
+            <footer>
+                <p> Excelência Odontologia © 2017 Todos os Direitos Reservados<br>
+                    <a href="https://pt-br.facebook.com/excelenciaodontoriacho/"><img
+                            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/facebook/facebook-original.svg" /></a>
+                    <a href="https://www.instagram.com/excelenciaodonto/"><img src="imagens/instagram.png" />
+                </p>
+            </footer>
+        </section>
+    </div>
+</body>
+
 </html>

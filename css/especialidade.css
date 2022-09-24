@@ -1,0 +1,36 @@
+div.gallery {
+    margin: 20px 10px 10px 40px;
+    border: 5px solid #ccc;
+    float: left;
+    width: 200px;
+    height: 330px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: 180px;
+}
+
+div.desc {
+    padding: 5px;
+    text-align: center;
+}
+
+section .corpoE h1 {
+    text-align: center;
+}
+
+section .corpoE {
+    display: inline;
+    align-items: center;
+    background-image: url("../imagens/back2.png");
+}
+
+.corpoE img{
+    width: 100px;
+    height:40px;
+}
