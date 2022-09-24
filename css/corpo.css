@@ -46,6 +46,28 @@ section .corpoL {
     background-image: url("../imagens/back2.png");
 }
 
+.mapa {
+	padding: 2em 0;
+	background: linear-gradient(#FEFEFE, #888888);
+		/*linear-gradient(90deg, lightpink 50%, hotpink, deeppink,pink); para fazer um degrade em circulo radial-gradient */
+
+}
+
+.mapa-conteudo {
+	width: 650px;
+	margin: 0 auto;
+}
+
+.mapa p {
+	margin: 0 0 2em;
+	text-align: center;
+}
+
+section h1#conve{
+    text-align: center;
+    font-size: 30px;
+    color: #680000;
+}
 /* Agendamento */
 section#corpoA {
     display: block;

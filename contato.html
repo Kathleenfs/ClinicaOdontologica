@@ -1,63 +1,56 @@
-
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-         <title>Excêlencia Odontologia</title>
-	<link rel="stylesheet"  href="estilo.css">
-	<link rel="shortcut icon" href="http://www.excelenciaodonto.com/images/favicon.ico" type="image/x-icon">
-  </head>
-  <body>
-        <style>
-             body {
-	 background-image:url("imagens/back.jpg");}
-             
-           section#corpoCon {
-  background-image:url("imagens/back2.png"); margin:0px 0px 0px 0px;
-  
-    }
-	</style>
-  
-  <div id="interfaceCon">
-	 <header id="cabecalho">
-            <img src="imagens/excelencia-odontologia.png">
-	    <h1>Aqui você volta a sorrir </h1>
-	   
-	   
-     <nav id="menuC">
-	    <ul type="disc">
-	      <li> <a href= "index.html"> Home </a> </li>
-              <li> <a href= "consulta_agendamento.html">Consultar agendamento</a></li>
-	      <li> <a href= "aparelho.html"> Especialidades</a> </li> 
-	      
-	    </ul>
-	 </nav>
-     </header>
- <section id="corpoCon">
-     
-	<img id="fone" src="imagens/slide_4_2.png">
-	 
-	 <h1 id="titulo">Mapa da Clinica</h1>
-        
-         <script id="mapa" src='https://maps.googleapis.com/maps/api/js?v=3.exp'>
-            
-         </script>
-         <div style='overflow:hidden;height:440px;width:700px;'>
-             <div id='gmap_canvas' style='height:440px;width:700px;'></div>
-             <div><small><a href="http://www.googlemapsgenerator.com/pt/">Incorporar um mapa do Google em seu site</a></small>
-             </div><div><small><a href="https://sitederencontrebelge.be/">Looking for Dating Services online? View here.</a></small>
-             </div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div>
-             <script>
-              function init_map(){var myOptions = {zoom:18,center:new google.maps.LatLng(-15.8781892,-48.02025850000001),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(-15.8781892,-48.02025850000001)});infowindow = new google.maps.InfoWindow({content:'<strong>Exelência Odontologia</strong><br>Riacho fundo 1 Qn 07 -Ae 01<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);
-               </script>
 
-  </section>
-  
-	<footer id="rodape">
-	<p> Excelência Odontologia © 2017 Todos os Direitos Reservados <br>
-	 <a href ="https://pt-br.facebook.com/excelenciaodontoriacho/" target=_blank> <h2>FACEBOOK | <a href ="https://www.instagram.com/excelenciaodonto/" target=_blank> INSTAGRAM</h2>
-	</p>
-	</footer>
-	</div>
-    </body>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>Excêlencia Odontologia</title>
+  <link rel="stylesheet" href="./css/reset.css" />
+  <link rel="stylesheet" href="./css/estilo.css" />
+  <link rel="stylesheet" href="./css/menu.css">
+  <link rel="stylesheet" href="./css/corpo.css">
+  <link rel="stylesheet" href="./css/rodape.css">
+  <link rel="shortcut icon" href="http://www.excelenciaodonto.com/images/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+  <div class="interface">
+    <header class="cabecalho">
+      <img src="imagens/excelencia-odontologia.png">
+      <h1>Aqui você volta a sorrir </h1>
+      <nav id="menu">
+        <ul type="disc">
+          <li> <a href="index.html"> Home </a> </li>
+          <li> <a href="consulta_agendamento.html">Consultar agendamento</a></li>
+          <li> <a href="especialidade.html"> Especialidades</a> </li>
+        </ul>
+      </nav>
+    </header>
+    <section class="corpoL">
+      <img id="fone" src="imagens/slide_4_2.png">
+
+      <h1 id="titulo">Mapa da Clinica</h1>
+
+      <section class="mapa">
+        <h2>Nosso estabelecimento está localizado no coração da cidade.</h2>
+
+        <div class="mapa-conteudo">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d10545.383639925942!2d-48.02649270568453!3d-15.877325275997606!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sexelencia%20odontolgia!5e0!3m2!1spt-BR!2sbr!4v1664053231848!5m2!1spt-BR!2sbr"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </section>
+    </section>
+    <section class="rodape">
+      <footer>
+        <p> Excelência Odontologia © 2017 Todos os Direitos Reservados<br>
+          <a href="https://pt-br.facebook.com/excelenciaodontoriacho/"><img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/facebook/facebook-original.svg" /></a>
+          <a href="https://www.instagram.com/excelenciaodonto/"><img src="imagens/instagram.png" />
+        </p>
+      </footer>
+    </section>
+  </div>
+</body>
+
 </html>
